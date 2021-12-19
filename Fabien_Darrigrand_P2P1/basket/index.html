@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Meta Utilities -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Title -->
+    <title>Le panier</title>
+
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+  <body>
+    <div id="contentForm">
+      <div
+        class="w-full flex flex-col content-center items-center bg-blue border"
+      >
+        <div class="my-content">
+          <label class="text-white" for="lastName">Name</label>
+          <input type="text" name="" id="lastName" />
+        </div>
+        <div class="my-content">
+          <label class="text-white" for="firstName">Prénom</label>
+          <input type="text" name="" id="firstName" />
+        </div>
+        <div class="my-content">
+          <label class="text-white" for="adresse">Adresse</label>
+          <input type="text" name="" id="adresse" />
+        </div>
+        <button onclick="validate()">Ok</button>
+      </div>
+    </div>
+
+    <div id="contentFinish">
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

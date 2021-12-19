@@ -1,0 +1,127 @@
+/* Fabien Darrigrand P2P1 */
+/* Projet mini pop moi (22/03/2021) */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.h-full {
+  height: 100%;
+}
+
+.h-chapeau {
+  height: 55px;
+}
+
+.h-haut {
+  height: 70px;
+}
+
+.h-bas {
+  height: 75px;
+}
+
+.h-chaussure {
+  height: 50px;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.w-max-left {
+  width: 700px;
+}
+
+.w-max-right {
+  width: 500px;
+}
+
+.bg-dark-gray {
+  background-color: #343a40;
+}
+
+.bg-blue {
+  background-color: #2660aa;
+}
+
+.bg-light-blue {
+  background-color: #94c5e3;
+}
+
+.my-title {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.my-text {
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+
+.my-content {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.mx-content {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.mt-content {
+  margin-top: 25px;
+}
+
+.mb-content {
+  margin-bottom: 50px;
+}
+
+.m-top {
+  margin-top: 50px;
+}
+
+.p-content {
+  padding: 25px;
+}
+
+.border {
+  border: 2px solid black;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.content-center {
+  justify-content: center;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.grid {
+  display: grid;
+}
+
+.gap {
+  gap: 0.75rem;
+}
+
+.grids-col-5 {
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+}
